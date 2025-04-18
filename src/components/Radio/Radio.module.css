@@ -1,0 +1,33 @@
+.radio {
+  height: 1rem;
+  width: 1rem;
+  color: #3b82f6;
+  border-color: #d1d5db;
+  background-color: #fff;
+}
+
+.radio:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+.radio:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.label {
+  margin-left: 0.5rem;
+  display: block;
+  font-size: 0.875rem;
+  color: #111827;
+}
+
+.labelDisabled {
+  color: #6b7280;
+} 
