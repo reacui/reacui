@@ -1,7 +1,8 @@
 {
-  "name": "reacui-components",
-  "version": "0.1.3",
+  "name": "reacui",
+  "version": "1.0.0",
   "description": "A React UI Library with customizable components",
+  "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -9,7 +10,7 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "test": "jest",
+    "test": "jest --config jest.config.cjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },

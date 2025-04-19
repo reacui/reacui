@@ -58,8 +58,29 @@ export default App;
 
 ## Available Components
 
+- Accordion: Collapsible content panels
+- Alert: Contextual feedback messages
+- Avatar: User profile pictures or initials
+- Badge: Small count and labeling component
 - Button: Standard button with variants, sizes, and states
-- [Additional components coming soon]
+- Card: Container for related content and actions
+- Checkbox: Selectable input control
+- DateTimePicker: Date and time selection component
+- FileInput: File upload component
+- Grid: Responsive layout grid system
+- Input: Text input field
+- Modal: Dialog windows for focused interactions
+- Popover: Small overlay for contextual information
+- Radio: Single-selection input control
+- RangeSlider: Range selection slider
+- Select: Dropdown selection component
+- Slider: Value selection slider
+- Spinner: Loading indicator
+- Switch: Toggle control
+- Table: Data table component
+- Textarea: Multi-line text input
+- Toast: Brief notifications
+- Tooltip: Informational text when hovering over elements
 
 ## Theme Support
 

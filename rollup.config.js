@@ -16,18 +16,20 @@ export default [
         file: pkg.main,
         format: 'cjs',
         sourcemap: true,
+        exports: "named"
       },
       {
         file: pkg.module,
         format: 'esm',
         sourcemap: true,
+        exports: "named"
       },
     ],
     plugins: [
       peerDepsExternal(),
       postcss({
         config: {
-          path: './postcss.config.js',
+          path: './postcss.config.cjs',
         },
         extensions: ['.css'],
         minimize: true,
